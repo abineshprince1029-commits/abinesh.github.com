@@ -1,0 +1,9 @@
+{
+  "name": "Routine - Plan, Focus, Grow",
+  "short_name": "Routine",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "background_color": "#EFE9DC",
+  "theme_color": "#F2EDE2",
+  "orientation": "portrait"
+}
