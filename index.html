@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+<link rel="manifest" href="manifest.json">
+<meta name="theme-color" content="#0f0f14">
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <meta name="theme-color" content="#F2EDE2">
@@ -15,6 +17,11 @@
   #taskList .task:not(.done) .check, #miniList button:not(.done) .check { display:grid !important; opacity:1 !important; }
 </style>
 </head>
+  <script>
+if ("serviceWorker" in navigator) {
+    navigator.serviceWorker.register("sw.js");
+}
+</script>
 <body>
 <div class="device" id="app">
 
